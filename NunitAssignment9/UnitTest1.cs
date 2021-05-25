@@ -16,10 +16,10 @@ namespace NunitAssignment9
         public void TestCustomConstrain_For_Chack_Capitalize_String()
         {
             // Act
-            string value = "Kuldip Ladola";
+            string value = "Arjun Chandarana";
 
             // Assert
-            Assert.That(value, Is.IsCapitalize("Kuldip Ladola"));
+            Assert.That(value, Is.IsCapitalize("Arjun Chandarana"));
         }
 
         /// <summary>
@@ -29,10 +29,10 @@ namespace NunitAssignment9
         public void TestCustomConstrain_For_Chack_Capitalize_String_Fails()
         {
             // Act
-            string value = "kuldip ladola";
+            string value = "Arjun Chandarana";
 
             // Assert
-            Assert.That(value, Is.IsCapitalize("Kuldip Ladola"));
+            Assert.That(value, Is.IsCapitalize("Arjun Chandarana"));
         }
 
         /// <summary>
